@@ -1,0 +1,1167 @@
+{
+    "name": "通用中空纤维UF系统",
+    "payload": {
+        "nums": 1
+    },
+    "children": [
+        {
+            "name": "原水箱模块",
+            "payload": {
+                "nums": 1,
+                "is_show": false
+            },
+            "children": [
+                {
+                    "name": "原水箱",
+                    "is_tank": true,
+                    "payload": {
+                        "nums": 1,
+                        "pid_id": "0.1",
+                        "catalog": "5.2",
+                        "name": "原水箱",
+                        "hrt": 1
+                    },
+                    "children": [
+                        {
+                            "name": "液位计",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "0.2",
+                                "catalog": "3.3.3.4",
+                                "name": "液位计"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "原水箱排空管路",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "排空阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "0.3",
+                                "catalog": "2.1",
+                                "name": "排空阀",
+                                "material": "铸铁/SS304",
+                                "s": 1.5,
+                                "dn_max": 300
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "原水箱出口管路(接原水泵)",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "catalog": "2.1",
+                                "pid_id": "0.4",
+                                "name": "手动阀",
+                                "material": "铸铁/SS304",
+                                "s": 1.5,
+                                "dn_max": 250
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "单套",
+            "payload": {
+                "nums": 2,
+                "nums_backup": 0
+            },
+            "children": [
+                {
+                    "name": "原水泵模块",
+                    "payload": {
+                        "nums": 1
+                    },
+                    "children": [
+                        {
+                            "name": "原水泵入口管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "原水泵",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.1",
+                                        "catalog": "4.1",
+                                        "name": "原水泵",
+                                        "use_vfd": true,
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "调节阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.3",
+                                        "catalog": "2.1.4",
+                                        "name": "调节阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "原水泵出口管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "止回阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.4",
+                                        "catalog": "2.3.1",
+                                        "name": "止回阀",
+                                        "material": "SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.5",
+                                        "catalog": "2.1",
+                                        "name": "手动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "流量计",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.7",
+                                        "catalog": "3.1.1",
+                                        "name": "流量计",
+                                        "material": "合金电极"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.8",
+                                        "catalog": "3.2.1.1",
+                                        "name": "压力表",
+                                        "material": "SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "预过滤器",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.2",
+                                        "catalog": "9.1",
+                                        "precision": 100,
+                                        "material": "SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "过滤器前手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.6",
+                                        "catalog": "2.1",
+                                        "name": "手动阀",
+                                        "place": "过滤器前",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "过滤器后手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.6",
+                                        "catalog": "2.1",
+                                        "name": "手动阀",
+                                        "place": "过滤器后",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "过滤器后压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.9",
+                                        "catalog": "3.2.1.1",
+                                        "name": "压力表",
+                                        "place": "过滤器后",
+                                        "material": "SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "管道混合器(运行加药)",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.13",
+                                        "catalog": "9.4",
+                                        "material": "PVC"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "过滤器旁通管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "1.6",
+                                        "catalog": "2.1",
+                                        "name": "手动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "膜组模块",
+                    "payload": {
+                        "nums": 1
+                    },
+                    "children": [
+                        {
+                            "name": "膜列模块",
+                            "payload": {
+                                "nums": 10
+                            },
+                            "children": [
+                                {
+                                    "name": "膜元件",
+                                    "payload": {
+                                        "nums": 3,
+                                        "pid_id": "2.0",
+                                        "catalog": "6.2.2",
+                                        "name": "膜元件",
+                                        "place": "膜组"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组进水管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "进水自动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.2",
+                                        "catalog": "2.2.1",
+                                        "name": "进水自动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "进水压力变送器",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.16",
+                                        "catalog": "3.2.2"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "进水流量计",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.19",
+                                        "required": false,
+                                        "catalog": "3.1.1.2"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "底排自动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.7",
+                                        "catalog": "2.2.1",
+                                        "name": "底排自动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "温度变送器",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.23",
+                                        "catalog": "3.6.2",
+                                        "spec": "0-100℃"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "原水压力开关/报警",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.33",
+                                        "catalog": "3.2.3"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "进水压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.30",
+                                        "catalog": "3.2.1"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组循环泵前后管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "循环泵出口止回阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.28",
+                                        "catalog": "2.3",
+                                        "material": "SS304",
+                                        "place": "循环泵出口"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "循环泵出口手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.29",
+                                        "catalog": "2.1",
+                                        "place": "循环泵出口"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "循环泵后压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.13",
+                                        "catalog": "3.2.1.1",
+                                        "place": "循环泵出口"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "循环泵",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.24",
+                                        "name": "循环泵",
+                                        "catalog": "4.5",
+                                        "use_vfd": true
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "循环泵出口压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.31",
+                                        "catalog": "3.2.1",
+                                        "place": "循环泵出口",
+                                        "required": false
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "循环泵出口流量计",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.32",
+                                        "catalog": "3.1.1",
+                                        "place": "循环泵出口"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组浓水总管(循环+回流+浓排)",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "name": "膜组循环管路(循环+回流)",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "管道回流自动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.25",
+                                        "material": "铸铁/SS304",
+                                        "catalog": "2.2.1"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "管道回流手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.26",
+                                        "material": "铸铁/SS304",
+                                        "catalog": "2.1"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组浓水排放管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "浓水自动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.6",
+                                        "catalog": "2.2.1",
+                                        "name": "浓水自动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "浓水手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.9",
+                                        "catalog": "2.1",
+                                        "name": "浓水手动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "浓水压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.14",
+                                        "catalog": "3.2.1.1"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "浓水压力变送器",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.17",
+                                        "catalog": "3.2.2"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "浓水流量计",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.21",
+                                        "catalog": "3.1.1.1"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "呼气排气阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.22",
+                                        "catalog": "2.6",
+                                        "material": "PVC/SS304"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组产水管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "产水自动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.3",
+                                        "catalog": "2.2.1",
+                                        "name": "产水自动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "产水手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.8",
+                                        "catalog": "2.1",
+                                        "name": "产水手动阀",
+                                        "material": "铸铁/SS304"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "产水压力表",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.15",
+                                        "catalog": "3.2.1.1"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "产水压力变送器",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.18",
+                                        "catalog": "3.2.2"
+                                    },
+                                    "children": []
+                                },
+                                {
+                                    "name": "产水流量计",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.20",
+                                        "catalog": "3.1.1.2"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组浓水回流管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "浓水回流手动阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.34",
+                                        "material": "铸铁/SS304",
+                                        "catalog": "2.1"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组循环回流管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "管道回流止回阀",
+                                    "payload": {
+                                        "nums": 1,
+                                        "pid_id": "2.27",
+                                        "material": "SS304",
+                                        "catalog": "2.3"
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组反洗相关",
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "膜组反洗入口管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": [
+                                        {
+                                            "name": "反洗自动阀",
+                                            "payload": {
+                                                "nums": 1,
+                                                "pid_id": "2.4",
+                                                "catalog": "2.2.1",
+                                                "name": "反洗自动阀",
+                                                "material": "铸铁/SS304"
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "膜组反洗排放管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": [
+                                        {
+                                            "name": "反洗排放阀",
+                                            "payload": {
+                                                "nums": 1,
+                                                "pid_id": "2.5",
+                                                "catalog": "2.2.1",
+                                                "name": "反洗排放阀",
+                                                "material": "铸铁/SS304"
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "膜组CIP相关",
+                            "payload": {},
+                            "children": [
+                                {
+                                    "name": "膜组CIP入口管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": [
+                                        {
+                                            "name": "CIP入口手动阀",
+                                            "payload": {
+                                                "nums": 1,
+                                                "pid_id": "2.10",
+                                                "catalog": "2.1",
+                                                "name": "CIP入口手动阀",
+                                                "material": "铸铁/SS304"
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "膜组CIP浓水回流管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": [
+                                        {
+                                            "name": "CIP浓水回流手动阀",
+                                            "payload": {
+                                                "nums": 1,
+                                                "pid_id": "2.11",
+                                                "catalog": "2.1",
+                                                "name": "CIP浓水回流手动阀",
+                                                "material": "铸铁/SS304"
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "膜组CIP产水回流管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": [
+                                        {
+                                            "name": "CIP产水回流手动阀",
+                                            "payload": {
+                                                "nums": 1,
+                                                "pid_id": "2.12",
+                                                "catalog": "2.1",
+                                                "name": "CIP产水回流手动阀",
+                                                "material": "铸铁/SS304"
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "反洗模块",
+            "payload": {
+                "nums": 1
+            },
+            "children": [
+                {
+                    "name": "反洗泵入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "反洗泵",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.1",
+                                "catalog": "4.1",
+                                "name": "反洗泵",
+                                "material": "SS304",
+                                "use_vfd": true
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "反洗泵入口手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.4",
+                                "catalog": "2.1",
+                                "material": "铸铁/SS304"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "反洗泵出口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "反洗泵出口止回阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.5",
+                                "catalog": "2.3",
+                                "material": "SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "反洗泵出口手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.6",
+                                "catalog": "2.1",
+                                "material": "铸铁/SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "反洗泵出口压力表",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.7",
+                                "catalog": "3.2.1"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "反洗泵出口流量计",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.8",
+                                "catalog": "3.1.1.2"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "管道混合器(用于CEB加药)",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "3.10",
+                                "catalog": "9.4",
+                                "material": "PVC"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CEB模块",
+            "payload": {
+                "nums": 1,
+                "pid_id": "3.10",
+                "catalog": "9.4",
+                "material": "PVC"
+            },
+            "children": [
+                {
+                    "name": "CEB泵入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "CEB泵",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "4.1",
+                                "name": "CEB泵",
+                                "material": "塑料",
+                                "use_vfd": false
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CEB泵入口手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "2.1",
+                                "material": "铸铁/SS304"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "CEB泵出口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "CEB泵出口止回阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "2.3",
+                                "material": "PVC",
+                                "remark": "设置独立的CEB泵，减少药剂消耗"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CEB泵出口手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "2.1",
+                                "material": "铸铁/SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CEB泵出口压力表",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "3.2.1"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CEB泵出口流量计",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "3.1.1.2"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "管道混合器",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "",
+                                "catalog": "9.4",
+                                "material": "PVC"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "化学清洗模块",
+            "payload": {
+                "nums": 1
+            },
+            "children": [
+                {
+                    "name": "CIP水箱",
+                    "is_tank": true,
+                    "payload": {
+                        "nums": 1,
+                        "pid_id": "4.0",
+                        "catalog": "5.2",
+                        "name": "CIP水箱",
+                        "material": "SS304/PP"
+                    },
+                    "children": [
+                        {
+                            "name": "CIP加热器",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.2",
+                                "catalog": "7.2",
+                                "name": "加热器",
+                                "remark": "成套设备"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CIP水箱液位计",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.8",
+                                "catalog": "3.3.1",
+                                "remark": "3点不锈钢浮球液位开关或磁翻板液位计",
+                                "material": "SS316L"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "CIP泵入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "CIP泵",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.1",
+                                "catalog": "4",
+                                "name": "CIP泵",
+                                "material": "SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CIP泵入口手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.3",
+                                "catalog": "2.1",
+                                "material": "铸铁/SS304"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "CIP泵出口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "CIP泵出口止回阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.4",
+                                "catalog": "2.3",
+                                "material": "SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CIP泵出口手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.5",
+                                "catalog": "2.1",
+                                "material": "铸铁/SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CIP泵出口压力表",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.6",
+                                "catalog": "3.2.1.1"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "CIP泵出口流量计",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.7",
+                                "catalog": "3.1.1.2"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "CIP水箱排空管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "CIP水箱排空阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "4.9",
+                                "catalog": "2.1",
+                                "name": "排空阀",
+                                "material": "PVC"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "控制柜模块",
+            "payload": {
+                "nums": 1
+            },
+            "children": [
+                {
+                    "name": "电控柜",
+                    "payload": {
+                        "nums": 1,
+                        "pid_id": "5.0",
+                        "catalog": "9.3",
+                        "material": "成套"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "压缩空气入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "压缩空气手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "5.1",
+                                "dn": 25,
+                                "catalog": "2.1",
+                                "name": "压缩空气手动阀",
+                                "material": "SS304"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "压缩空气减压阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "5.2",
+                                "dn": 25,
+                                "remark": "自带压力表",
+                                "catalog": "2.4",
+                                "name": "压缩空气减压阀",
+                                "material": "铝合金"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "压缩空气低压开关",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "5.3",
+                                "dn": 25,
+                                "catalog": "3.2.3.2",
+                                "name": "压缩空气低压开关",
+                                "material": "成套"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "产水箱模块",
+            "payload": {
+                "nums": 1
+            },
+            "children": [
+                {
+                    "name": "产水箱",
+                    "is_tank": true,
+                    "payload": {
+                        "nums": 1,
+                        "pid_id": "6.0",
+                        "catalog": "5.2",
+                        "name": "产水箱",
+                        "is_show": false
+                    },
+                    "children": [
+                        {
+                            "name": "液位计或液位开关",
+                            "payload": {
+                                "nums": 1,
+                                "name": "液位计或液位开关",
+                                "pid_id": "6.1",
+                                "catalog": "3.3.1"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "产水箱排空管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "产水箱排空阀",
+                            "payload": {
+                                "nums": 1,
+                                "pid_id": "6.3",
+                                "material": "铸铁/SS304",
+                                "catalog": "2.1"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "产水箱出口管道(接反洗泵)",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": [
+                        {
+                            "name": "产水箱手动阀",
+                            "payload": {
+                                "nums": 1,
+                                "name": "产水箱手动阀",
+                                "pid_id": "6.2",
+                                "material": "铸铁/SS304",
+                                "catalog": "2.1"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

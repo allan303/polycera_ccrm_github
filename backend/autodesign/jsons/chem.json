@@ -1,0 +1,307 @@
+{
+    "hcl": {
+        "name": "hcl",
+        "name_cn": "盐酸",
+        "name_upper": "HCl",
+        "solid_price_per_kg": 0.67,
+        "solid_density": 1.18,
+        "wt_list": [
+            {
+                "wt": 37,
+                "density_kg_l": 1.16
+            },
+            {
+                "wt": 10.5,
+                "density_kg_l": 1.05
+            },
+            {
+                "wt": 0.4,
+                "density_kg_l": 1
+            }
+        ]
+    },
+    "naoh": {
+        "name": "naoh",
+        "name_cn": "氢氧化钠",
+        "name_upper": "NaOH",
+        "solid_price_per_kg": 2.1,
+        "solid_density": 2.13,
+        "wt_list": [
+            {
+                "wt": 0.159,
+                "density_kg_l": 1
+            },
+            {
+                "wt": 0.6,
+                "density_kg_l": 1.005
+            },
+            {
+                "wt": 1,
+                "density_kg_l": 1.01
+            },
+            {
+                "wt": 1.5,
+                "density_kg_l": 1.015
+            },
+            {
+                "wt": 2,
+                "density_kg_l": 1.02
+            },
+            {
+                "wt": 2.4,
+                "density_kg_l": 1.025
+            },
+            {
+                "wt": 3.3,
+                "density_kg_l": 1.035
+            },
+            {
+                "wt": 4.2,
+                "density_kg_l": 1.045
+            },
+            {
+                "wt": 5,
+                "density_kg_l": 1.055
+            },
+            {
+                "wt": 6,
+                "density_kg_l": 1.065
+            },
+            {
+                "wt": 7,
+                "density_kg_l": 1.075
+            },
+            {
+                "wt": 8,
+                "density_kg_l": 1.09
+            },
+            {
+                "wt": 10,
+                "density_kg_l": 1.11
+            },
+            {
+                "wt": 11,
+                "density_kg_l": 1.12
+            },
+            {
+                "wt": 12,
+                "density_kg_l": 1.13
+            },
+            {
+                "wt": 13,
+                "density_kg_l": 1.145
+            },
+            {
+                "wt": 14,
+                "density_kg_l": 1.155
+            },
+            {
+                "wt": 15,
+                "density_kg_l": 1.165
+            },
+            {
+                "wt": 16,
+                "density_kg_l": 1.175
+            },
+            {
+                "wt": 17,
+                "density_kg_l": 1.185
+            },
+            {
+                "wt": 18,
+                "density_kg_l": 1.195
+            },
+            {
+                "wt": 19,
+                "density_kg_l": 1.21
+            },
+            {
+                "wt": 20,
+                "density_kg_l": 1.22
+            },
+            {
+                "wt": 21,
+                "density_kg_l": 1.23
+            },
+            {
+                "wt": 22,
+                "density_kg_l": 1.24
+            },
+            {
+                "wt": 23,
+                "density_kg_l": 1.25
+            },
+            {
+                "wt": 24,
+                "density_kg_l": 1.265
+            },
+            {
+                "wt": 25,
+                "density_kg_l": 1.275
+            },
+            {
+                "wt": 26,
+                "density_kg_l": 1.285
+            },
+            {
+                "wt": 27,
+                "density_kg_l": 1.295
+            },
+            {
+                "wt": 28,
+                "density_kg_l": 1.305
+            },
+            {
+                "wt": 29,
+                "density_kg_l": 1.315
+            },
+            {
+                "wt": 30,
+                "density_kg_l": 1.33
+            },
+            {
+                "wt": 31,
+                "density_kg_l": 1.34
+            },
+            {
+                "wt": 32,
+                "density_kg_l": 1.35
+            },
+            {
+                "wt": 33,
+                "density_kg_l": 1.36
+            },
+            {
+                "wt": 34,
+                "density_kg_l": 1.37
+            },
+            {
+                "wt": 35,
+                "density_kg_l": 1.38
+            },
+            {
+                "wt": 36,
+                "density_kg_l": 1.39
+            },
+            {
+                "wt": 37,
+                "density_kg_l": 1.4
+            },
+            {
+                "wt": 38,
+                "density_kg_l": 1.41
+            },
+            {
+                "wt": 39,
+                "density_kg_l": 1.42
+            },
+            {
+                "wt": 40,
+                "density_kg_l": 1.43
+            }
+        ]
+    },
+    "h2so4": {
+        "name": "h2so4",
+        "name_cn": "硫酸",
+        "name_upper": "H2SO4",
+        "solid_price_per_kg": 0.7,
+        "solid_density": 1.8305,
+        "wt_list": [
+            {
+                "wt": 50,
+                "density_kg_l": 1.4
+            }
+        ]
+    },
+    "citric": {
+        "name": "citric",
+        "name_cn": "柠檬酸",
+        "name_upper": "Citric Acid",
+        "solid_price_per_kg": 4.2,
+        "solid_density": 1.542,
+        "wt_list": [
+            {
+                "wt": 20,
+                "density_kg_l": 1.09
+            }
+        ]
+    },
+    "naclo": {
+        "name": "naclo",
+        "name_cn": "次氯酸钠",
+        "name_upper": "NaClO",
+        "solid_price_per_kg": 5.5,
+        "solid_density": 1.25,
+        "wt_list": [
+            {
+                "wt": 10,
+                "density_kg_l": 1.2
+            }
+        ]
+    },
+    "pac_fe": {
+        "name": "pac",
+        "name_cn": "聚合氯化铁",
+        "name_upper": "PAC(Fe)",
+        "solid_price_per_kg": 1.1,
+        "solid_density": 1.25,
+        "wt_list": []
+    },
+    "pac_al": {
+        "name": "pac(al)",
+        "name_cn": "聚合氯化铝",
+        "name_upper": "PAC(Al)",
+        "solid_price_per_kg": 1.1,
+        "solid_density": 1.25,
+        "wt_list": []
+    },
+    "pam": {
+        "name": "pam",
+        "name_cn": "聚丙烯酰胺",
+        "name_upper": "PAM",
+        "solid_price_per_kg": 30,
+        "solid_density": 1.25,
+        "wt_list": []
+    },
+    "edta": {
+        "name": "edta",
+        "name_cn": "EDTA螯合剂",
+        "name_upper": "EDTA",
+        "solid_price_per_kg": 0,
+        "solid_density": 0.86,
+        "wt_list": []
+    },
+    "sdbs": {
+        "name": "sdbs",
+        "name_cn": "十二烷基苯磺酸钠",
+        "name_upper": "SDBS/LAS",
+        "solid_price_per_kg": 0,
+        "solid_density": 1.02,
+        "wt_list": []
+    },
+    "sbs": {
+        "name": "nahso3",
+        "name_cn": "亚硫酸氢钠",
+        "name_upper": "NaHSO3",
+        "solid_price_per_kg": 0,
+        "solid_density": 1.02,
+        "wt_list": []
+    },
+    "antiscale": {
+        "name": "antiscale",
+        "name_cn": "阻垢剂",
+        "name_upper": "Antiscale",
+        "solid_price_per_kg": 0,
+        "solid_density": 1.02,
+        "wt_list": []
+    },
+    "sterilizing_agent ": {
+        "name": "sterilizing_agent",
+        "name_cn": "杀菌剂",
+        "name_upper": "Sterilizing Agent",
+        "solid_price_per_kg": 0,
+        "solid_density": 1.02,
+        "wt_list": []
+    }
+}

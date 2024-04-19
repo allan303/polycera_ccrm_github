@@ -1,0 +1,62 @@
+{
+  "name": "polycera",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "@vueform/multiselect": "^2.1.2",
+    "axios": "^0.21.0",
+    "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.5.0",
+    "chart.js": "^3.5.0",
+    "core-js": "^3.6.5",
+    "js-file-download": "^0.4.8",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "numeral": "^2.0.6",
+    "pinyin": "^2.10.2",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^3.2.1",
+    "validator": "^13.1.17",
+    "vue": "^3.1.14",
+    "vue-chart-3": "^3.0.3",
+    "vue-i18n": "^9.9",
+    "vue-router": "^4.0.1",
+    "vue3-quill": "^0.2.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.1.14",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-loader-v16": "^16.0.0-beta.5.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

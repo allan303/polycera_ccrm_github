@@ -1,0 +1,338 @@
+{
+    "ag": {
+        "name_cn": "银 Ag+",
+        "g_mol": 108.0,
+        "name": "ag",
+        "valence": 1,
+        "balance_h": 0,
+        "name_upper": "Ag+"
+    },
+    "al": {
+        "name_cn": "铝 Al3+",
+        "g_mol": 27.0,
+        "name": "al",
+        "valence": 3,
+        "balance_h": 0,
+        "name_upper": "Al3+"
+    },
+    "as": {
+        "name_cn": "砷 As3+",
+        "g_mol": 75.0,
+        "name": "as",
+        "valence": 3,
+        "balance_h": 0,
+        "name_upper": "As3+"
+    },
+    "ba": {
+        "name_cn": "钡 Ba2+",
+        "g_mol": 137.3,
+        "name": "ba",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Ba2+"
+    },
+    "br": {
+        "name_cn": "溴根 Br-",
+        "g_mol": 80.0,
+        "name": "br",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "Br-"
+    },
+    "ca": {
+        "name_cn": "钙 Ca2+",
+        "g_mol": 40.0,
+        "name": "ca",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Ca2+"
+    },
+    "cd": {
+        "name_cn": "镉 Cd2+",
+        "g_mol": 112.4,
+        "name": "cd",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Cd2+"
+    },
+    "cl": {
+        "name_cn": "氯根 Cl-",
+        "g_mol": 35.5,
+        "name": "cl",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "Cl-"
+    },
+    "clo": {
+        "name_cn": "次氯酸根 ClO-",
+        "g_mol": 51.5,
+        "name": "clo",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "ClO-"
+    },
+    "co": {
+        "name_cn": "钴 Co2+",
+        "g_mol": 59.0,
+        "name": "co",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Co2+"
+    },
+    "co2": {
+        "name_cn": "二氧化碳 CO2(H2CO3）",
+        "g_mol": 44.0,
+        "name": "co2",
+        "valence": 0,
+        "balance_h": 2,
+        "name_upper": "CO2(H2CO3）"
+    },
+    "co3": {
+        "name_cn": "碳酸根 CO3 2-",
+        "g_mol": 60.0,
+        "name": "co3",
+        "valence": -2,
+        "balance_h": 0,
+        "name_upper": "CO3 2-"
+    },
+    "cr3": {
+        "name_cn": "三价铬 Cr3+",
+        "g_mol": 52.0,
+        "name": "cr3",
+        "valence": 3,
+        "balance_h": 0,
+        "name_upper": "Cr3+"
+    },
+    "cu": {
+        "name_cn": "铜 Cu2+",
+        "g_mol": 63.5,
+        "name": "cu",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Cu2+"
+    },
+    "f": {
+        "name_cn": "氟根 F-",
+        "g_mol": 19.0,
+        "name": "f",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "F-"
+    },
+    "fe": {
+        "name_cn": "三价铁 Fe3+",
+        "g_mol": 55.8,
+        "name": "fe",
+        "valence": 3,
+        "balance_h": 0,
+        "name_upper": "Fe3+"
+    },
+    "fe2": {
+        "name_cn": "二价铁 Fe2+",
+        "g_mol": 55.8,
+        "name": "fe2",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Fe2+"
+    },
+    "h": {
+        "name_cn": "氢 H+",
+        "g_mol": 1.0,
+        "name": "h",
+        "valence": 1,
+        "balance_h": 1,
+        "name_upper": "H+"
+    },
+    "hco3": {
+        "name_cn": "碳酸氢根 HCO3-",
+        "g_mol": 61.0,
+        "name": "hco3",
+        "valence": -1,
+        "balance_h": 1,
+        "name_upper": "HCO3-"
+    },
+    "hg": {
+        "name_cn": "汞 Hg2+",
+        "g_mol": 200.5,
+        "name": "hg",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Hg2+"
+    },
+    "hso3": {
+        "name_cn": "亚硫酸氢根 HSO3-",
+        "g_mol": 81.0,
+        "name": "hso3",
+        "valence": 1,
+        "balance_h": 0,
+        "name_upper": "HSO3-"
+    },
+    "i": {
+        "name_cn": "碘根 I-",
+        "g_mol": 127.0,
+        "name": "i",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "I-"
+    },
+    "k": {
+        "name_cn": "钾 K+",
+        "g_mol": 39.0,
+        "name": "k",
+        "valence": 1,
+        "balance_h": 0,
+        "name_upper": "K+"
+    },
+    "mg": {
+        "name_cn": "镁 Mg2+",
+        "g_mol": 24.3,
+        "name": "mg",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Mg2+"
+    },
+    "mn": {
+        "name_cn": "锰 Mn2+",
+        "g_mol": 55.0,
+        "name": "mn",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Mn2+"
+    },
+    "na": {
+        "name_cn": "钠 Na+",
+        "g_mol": 23.0,
+        "name": "na",
+        "valence": 1,
+        "balance_h": 0,
+        "name_upper": "Na+"
+    },
+    "nh3": {
+        "name_cn": "铵 NH3",
+        "g_mol": 17.0,
+        "name": "nh3",
+        "valence": 1,
+        "balance_h": 0,
+        "name_upper": "NH3"
+    },
+    "nh4": {
+        "name_cn": "铵 NH4+",
+        "g_mol": 18.0,
+        "name": "nh4",
+        "valence": 1,
+        "balance_h": 1,
+        "name_upper": "NH4+"
+    },
+    "ni": {
+        "name_cn": "镍 Ni2+",
+        "g_mol": 58.7,
+        "name": "ni",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Ni2+"
+    },
+    "no2": {
+        "name_cn": "亚硝酸根 NO2-",
+        "g_mol": 46.0,
+        "name": "no2",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "NO2-"
+    },
+    "no3": {
+        "name_cn": "硝酸根 NO3-",
+        "g_mol": 62.0,
+        "name": "no3",
+        "valence": -1,
+        "balance_h": 0,
+        "name_upper": "NO3-"
+    },
+    "o": {
+        "name_cn": "氧 O",
+        "g_mol": 16.0,
+        "name": "o",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "O"
+    },
+    "oh": {
+        "name_cn": "氢氧根 OH-",
+        "g_mol": 17.0,
+        "name": "oh",
+        "valence": -1,
+        "balance_h": -1,
+        "name_upper": "OH-"
+    },
+    "pb": {
+        "name_cn": "铅 Pb2+",
+        "g_mol": 207.2,
+        "name": "pb",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Pb2+"
+    },
+    "po4": {
+        "name_cn": "磷酸根 PO4 3-",
+        "g_mol": 95.0,
+        "name": "po4",
+        "valence": -3,
+        "balance_h": 0,
+        "name_upper": "PO4 3-"
+    },
+    "s": {
+        "name_cn": "硫根 S 2-",
+        "g_mol": 32.0,
+        "name": "s",
+        "valence": -2,
+        "balance_h": 0,
+        "name_upper": "S 2-"
+    },
+    "si": {
+        "name_cn": "硅 Si",
+        "g_mol": 28.0,
+        "name": "si",
+        "valence": 4,
+        "balance_h": 0,
+        "name_upper": "Si"
+    },
+    "sio2": {
+        "name_cn": "二氧化硅 SiO2",
+        "g_mol": 60.0,
+        "name": "sio2",
+        "valence": 0,
+        "balance_h": 0,
+        "name_upper": "SiO2"
+    },
+    "sn": {
+        "name_cn": "锡 Sn2+",
+        "g_mol": 118.6,
+        "name": "sn",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Sn2+"
+    },
+    "so4": {
+        "name_cn": "硫酸根 SO4 2-",
+        "g_mol": 96.0,
+        "name": "so4",
+        "valence": -2,
+        "balance_h": 0,
+        "name_upper": "SO4 2-"
+    },
+    "sr": {
+        "name_cn": "锶 Sr2+",
+        "g_mol": 87.6,
+        "name": "sr",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Sr2+"
+    },
+    "zn": {
+        "name_cn": "锌 Zn2+",
+        "g_mol": 65.4,
+        "name": "zn",
+        "valence": 2,
+        "balance_h": 0,
+        "name_upper": "Zn2+"
+    }
+}

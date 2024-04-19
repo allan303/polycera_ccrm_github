@@ -1,0 +1,1001 @@
+{
+    "product_name": "产品目录",
+    "product_name_en": "product catalog",
+    "standard": "cn",
+    "catalog": "",
+    "class_name": "BaseProductMixin",
+    "label": "通用产品",
+    "unit": "set",
+    "children": {
+        "0": {
+            "product_name": "通用产品",
+            "product_name_en": "general product",
+            "children": {}
+        },
+        "1": {
+            "product_name": "管道类",
+            "product_name_en": "pipe related",
+            "dn_related": true,
+            "kw_related": false,
+            "pn_related": true,
+            "children": {
+                "1": {
+                    "product_name": "管道",
+                    "product_name_en": "pipe",
+                    "material": "PVC",
+                    "unit": "set",
+                    "class_name": "Pipe",
+                    "label": "管道",
+                    "children": {
+                        "1": {
+                            "product_name": "软管",
+                            "product_name_en": "Flexible pipe",
+                            "class_name": "SoftpiplineDtro",
+                            "material": "橡胶",
+                            "children": {
+                                "1": {
+                                    "product_name": "排气软管",
+                                    "product_name_en": "Flexible pipe",
+                                    "material": "橡胶",
+                                    "spec": "φ12×8mm透明软管(保证排气)",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "DTRO膜高压软管",
+                                    "product_name_en": "DTRO HP flexible pipe",
+                                    "material": "SS316L",
+                                    "brand": "par-LOK",
+                                    "max_p": 90,
+                                    "diameter_mm": 12,
+                                    "standard": "us",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "异径管",
+                            "product_name_en": "reducer pipe",
+                            "class_name": "ReducerPipe",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "反洗柱",
+                            "product_name_en": "backwash pillar ",
+                            "class_name": "BackWashPillar",
+                            "label": "非标件",
+                            "standard": "non",
+                            "children": {}
+                        }
+                    }
+                },
+                "2": {
+                    "product_name": "连接件",
+                    "product_name_en": "adapting",
+                    "class_name": "PiplineRelated",
+                    "unit": "pcs",
+                    "label": "管道件",
+                    "children": {
+                        "1": {
+                            "product_name": "法兰",
+                            "product_name_en": "flange",
+                            "material": "铸铁",
+                            "unit": "set",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "弯头",
+                            "product_name_en": "elbow",
+                            "material": "PVC",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "卡箍/连接件",
+                            "product_name_en": "coupling",
+                            "material": "铸铁/不锈钢",
+                            "children": {}
+                        },
+                        "4": {
+                            "product_name": "马鞍座",
+                            "product_name_en": "Saddle",
+                            "material": "橡胶",
+                            "children": {}
+                        },
+                        "5": {
+                            "product_name": "接头",
+                            "product_name_en": "joint",
+                            "material": "PVC",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "2": {
+            "product_name": "阀门",
+            "product_name_en": "valve",
+            "dn_related": true,
+            "kw_related": false,
+            "pn_related": true,
+            "unit": "pcs",
+            "cad_tag": "V",
+            "label": "阀门",
+            "class_name": "Valve",
+            "children": {
+                "1": {
+                    "product_name": "手动阀",
+                    "product_name_en": "manual valve",
+                    "power": "manual",
+                    "children": {
+                        "1": {
+                            "product_name": "手动球阀",
+                            "product_name_en": "manual ball valve",
+                            "material": "UPVC",
+                            "valve_type": "球阀",
+                            "children": {
+                                "1": {
+                                    "product_name": "取样阀",
+                                    "product_name_en": "sampling valve",
+                                    "spec": "G1/4,丝口,球阀",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "3": {
+                            "product_name": "手动蝶阀",
+                            "product_name_en": "manual flap valve",
+                            "material": "UPVC/金属衬塑",
+                            "valve_type": "蝶阀",
+                            "children": {}
+                        },
+                        "4": {
+                            "product_name": "隔膜阀",
+                            "product_name_en": "diaphragm valve",
+                            "material": "UPVC/金属衬塑",
+                            "valve_type": "隔膜阀",
+                            "children": {}
+                        }
+                    }
+                },
+                "2": {
+                    "product_name": "自动阀",
+                    "product_name_en": "auto valve",
+                    "children": {
+                        "1": {
+                            "product_name": "气动阀",
+                            "product_name_en": "gas valve",
+                            "power": "gas",
+                            "children": {
+                                "1": {
+                                    "product_name": "气动球阀",
+                                    "product_name_en": "gas ball valve",
+                                    "material": "UPVC/不锈钢",
+                                    "valve_type": "球阀",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "气动蝶阀",
+                                    "product_name_en": "gas flap valve",
+                                    "material": "UPVC/金属衬塑",
+                                    "valve_type": "蝶阀",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "气动调节阀",
+                                    "product_name_en": "gas diaphragm valve",
+                                    "material": "UPVC/金属衬塑",
+                                    "valve_type": "调节阀",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "电动阀",
+                            "product_name_en": "electric valve",
+                            "children": {
+                                "1": {
+                                    "product_name": "电动球阀",
+                                    "product_name_en": "electric ball valve",
+                                    "material": "UPVC/不锈钢",
+                                    "valve_type": "球阀",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "电动蝶阀",
+                                    "product_name_en": "electric flap valve",
+                                    "material": "UPVC/金属衬塑",
+                                    "valve_type": "蝶阀",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "电动调节阀",
+                                    "product_name_en": "electric diaphragm valve",
+                                    "material": "UPVC/金属衬塑",
+                                    "valve_type": "调节阀",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "product_name": "止回阀",
+                    "product_name_en": "check valve",
+                    "power": "non",
+                    "valve_type": "止回阀",
+                    "children": {
+                        "1": {
+                            "product_name": "止回阀",
+                            "product_name_en": "check valve",
+                            "material": "UPVC或金属衬塑",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "气体止回阀",
+                            "product_name_en": "gas check valve",
+                            "material": "铜/不锈钢",
+                            "spec": "弹簧式压缩空气止回阀",
+                            "children": {}
+                        }
+                    }
+                },
+                "4": {
+                    "product_name": "减压阀",
+                    "product_name_en": "pressure reduce valve",
+                    "valve_type": "减压阀",
+                    "children": {
+                        "1": {
+                            "product_name": "气体减压过滤三联件",
+                            "product_name_en": "gas pressure reduce valve",
+                            "children": {}
+                        }
+                    }
+                },
+                "5": {
+                    "product_name": "背压阀",
+                    "product_name_en": "Back Pressure Valve",
+                    "valve_type": "valve_type",
+                    "children": {}
+                },
+                "6": {
+                    "product_name": "排气阀",
+                    "product_name_en": "vent Valve",
+                    "remark": "机械式，带呼吸功能",
+                    "children": {}
+                }
+            }
+        },
+        "3": {
+            "product_name": "仪表",
+            "product_name_en": "instrument",
+            "dn_related": false,
+            "kw_related": false,
+            "pn_related": true,
+            "unit": "set",
+            "label": "仪表",
+            "class_name": "Instrument",
+            "children": {
+                "1": {
+                    "product_name": "流量相关",
+                    "product_name_en": "flow related",
+                    "class_name": "FlowGauge",
+                    "children": {
+                        "1": {
+                            "product_name": "流量计",
+                            "product_name_en": "flow gauge",
+                            "cad_tag": "FI",
+                            "children": {
+                                "1": {
+                                    "product_name": "管道流量计",
+                                    "product_name_en": "rotor flow gauge",
+                                    "cad_tag": "FI",
+                                    "remark": "由任连接",
+                                    "material": "PVC",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "电磁流量计",
+                                    "product_name_en": "magnetic flow gauge",
+                                    "cad_tag": "FIQ",
+                                    "class_name": "FlowGaugeMagnetic",
+                                    "remark": "法兰连接,4-20mA输出",
+                                    "material": "合金电极",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "流量变送器",
+                            "product_name_en": "flow transducer",
+                            "cad_tag": "FT",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "流量开关",
+                            "product_name_en": "flow Switch",
+                            "cad_tag": "FS",
+                            "children": {
+                                "1": {
+                                    "product_name": "高流量开关",
+                                    "product_name_en": "high flow switch",
+                                    "cad_tag": "FSH",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "低流量开关",
+                                    "product_name_en": "low flow switch",
+                                    "cad_tag": "FSL",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "高低流量开关",
+                                    "product_name_en": "H & L flow switch",
+                                    "cad_tag": "ASHL",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "product_name": "压力相关",
+                    "product_name_en": "pressure related",
+                    "cad_tag": "FI",
+                    "children": {
+                        "1": {
+                            "product_name": "压力表",
+                            "product_name_en": "pressure gauge",
+                            "cad_tag": "PI",
+                            "class_name": "PressureGauge",
+                            "material": "SS304",
+                            "children": {
+                                "1": {
+                                    "product_name": "机械式压力表",
+                                    "product_name_en": "mechanical pressure gauge",
+                                    "material": "SS316L",
+                                    "cad_tag": "PI",
+                                    "description": "注油防震",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "数字型压力表",
+                                    "product_name_en": "digital pressure gauge",
+                                    "cad_tag": "PIT",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "压力变送器",
+                            "product_name_en": "pressure transducer",
+                            "cad_tag": "PT",
+                            "material": "SS316L",
+                            "remark": "数字压力变送器，金属膜片密封",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "压力开关",
+                            "product_name_en": "pressure switch",
+                            "cad_tag": "PS",
+                            "children": {
+                                "1": {
+                                    "product_name": "高压开关",
+                                    "product_name_en": "high pressure switch",
+                                    "cad_tag": "PSH",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "低压开关",
+                                    "product_name_en": "low pressure switch",
+                                    "cad_tag": "PSL",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "高低压开关",
+                                    "product_name_en": "H & L pressure switch",
+                                    "cad_tag": "PSHL",
+                                    "children": {}
+                                },
+                                "4": {
+                                    "product_name": "压力开关带报警",
+                                    "product_name_en": "pressure switch",
+                                    "cad_tag": "PSA",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "4": {
+                            "product_name": "引压管",
+                            "product_name_en": "impulse line",
+                            "class_name": "ImpulseLine",
+                            "children": {}
+                        }
+                    }
+                },
+                "3": {
+                    "product_name": "液位相关",
+                    "product_name_en": "liquid level related",
+                    "children": {
+                        "1": {
+                            "product_name": "液位计",
+                            "product_name_en": "liquid level gauge",
+                            "cad_tag": "LI",
+                            "children": {
+                                "1": {
+                                    "product_name": "磁翻板液位计",
+                                    "product_name_en": "Magnetic flip level gauge",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "浮球液位计",
+                                    "product_name_en": "Float level gauge",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "超声波液位计",
+                                    "product_name_en": "liquid level gauge",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "液位变送器",
+                            "product_name_en": "Liquid level Transducer",
+                            "cad_tag": "LT",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "液位开关",
+                            "product_name_en": "Liquid level Switch",
+                            "spec": "对夹浮球式",
+                            "cad_tag": "LS",
+                            "children": {
+                                "1": {
+                                    "product_name": "高液位开关",
+                                    "product_name_en": "high Liquid level switch",
+                                    "cad_tag": "LSH",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "低液位开关",
+                                    "product_name_en": "low Liquid level switch",
+                                    "cad_tag": "LSL",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "高低液位开关",
+                                    "product_name_en": "H & L Liquid level switch",
+                                    "cad_tag": "LSHL",
+                                    "children": {}
+                                },
+                                "4": {
+                                    "product_name": "液位开关",
+                                    "product_name_en": "H&M&L Liquid level switch",
+                                    "cad_tag": "LSA",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "4": {
+                    "product_name": "pH相关",
+                    "product_name_en": "ph related",
+                    "children": {
+                        "1": {
+                            "product_name": "ph计",
+                            "product_name_en": "ph gauge",
+                            "cad_tag": "PH",
+                            "spec": "pH范围0~14",
+                            "children": {
+                                "1": {
+                                    "product_name": "在线ph计",
+                                    "product_name_en": "online ph gauge",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "5": {
+                    "product_name": "氧化还原电位",
+                    "product_name_en": "ORP related",
+                    "cad_tag": "ORP",
+                    "children": {
+                        "1": {
+                            "product_name": "在线ORP表",
+                            "product_name_en": "online ORP gauge",
+                            "children": {}
+                        }
+                    }
+                },
+                "6": {
+                    "product_name": "温度相关",
+                    "product_name_en": "temperature related",
+                    "children": {
+                        "1": {
+                            "product_name": "温度计",
+                            "temp_range": "0-100℃",
+                            "product_name_en": "temperature gauge",
+                            "cad_tag": "TI",
+                            "class_name": "TempGauge",
+                            "children": {
+                                "1": {
+                                    "product_name": "温度计带报警",
+                                    "product_name_en": "temperature gauge with alarm",
+                                    "cad_tag": "TIA",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "温度变送器",
+                            "product_name_en": "temperature transducer",
+                            "cad_tag": "TT",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "温度开关",
+                            "product_name_en": "temperature switch",
+                            "cad_tag": "TS",
+                            "children": {
+                                "1": {
+                                    "product_name": "高温开关",
+                                    "product_name_en": "high temperature switch",
+                                    "cad_tag": "TSH",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "低温开关",
+                                    "product_name_en": "low temperature switch",
+                                    "cad_tag": "TSL",
+                                    "children": {}
+                                },
+                                "3": {
+                                    "product_name": "高低温开关",
+                                    "product_name_en": "H & L temperature switch",
+                                    "cad_tag": "TSHL",
+                                    "children": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "7": {
+                    "product_name": "浊度相关",
+                    "product_name_en": "turbidity related",
+                    "children": {
+                        "1": {
+                            "product_name": "浊度仪",
+                            "product_name_en": "turbidity gauge",
+                            "cad_tag": "TUBI",
+                            "children": {}
+                        }
+                    }
+                },
+                "8": {
+                    "product_name": "电导率相关",
+                    "product_name_en": "conductivity related",
+                    "children": {
+                        "1": {
+                            "product_name": "在线电导率仪",
+                            "product_name_en": "online conductivity gauge",
+                            "cad_tag": "EC",
+                            "ec_range": "0 - 100,000 us/cm",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "4": {
+            "product_name": "泵",
+            "product_name_en": "pump",
+            "dn_related": false,
+            "kw_related": true,
+            "pn_related": true,
+            "cad_tag": "P",
+            "kw_k": 0.8,
+            "p2_k": 1.2,
+            "power": "electric",
+            "label": "泵",
+            "class_name": "Pump",
+            "children": {
+                "1": {
+                    "product_name": "离心泵",
+                    "product_name_en": "Centrifugal Pump",
+                    "class_name": "CentrifugalPump",
+                    "kw_k": 0.8,
+                    "p2_k": 1.2,
+                    "children": {}
+                },
+                "2": {
+                    "product_name": "柱塞泵",
+                    "product_name_en": "Piston Pump",
+                    "class_name": "PistonPump",
+                    "kw_k": 0.8,
+                    "p2_k": 1,
+                    "children": {}
+                },
+                "3": {
+                    "product_name": "螺杆泵",
+                    "product_name_en": "Screw Pump",
+                    "class_name": "ScrewPump",
+                    "kw_k": 0.4,
+                    "p2_k": 1.2,
+                    "nc": 0,
+                    "nf": 2,
+                    "children": {}
+                },
+                "4": {
+                    "product_name": "隔膜泵",
+                    "product_name_en": "Diaphragm Pump",
+                    "class_name": "DiaphragmPump",
+                    "kw_k": 0.5,
+                    "children": {
+                        "1": {
+                            "product_name": "计量泵",
+                            "product_name_en": "Diaphragm Metering Pump",
+                            "class_name": "DiaphragmMeteringPump",
+                            "kw_k": 0.5,
+                            "material": "PP或氟塑料",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "气动隔膜泵",
+                            "product_name_en": "Pneumatic Diaphragm pump",
+                            "kw_k": 0.5,
+                            "kw_related": false,
+                            "power": "gas",
+                            "material": "PP或氟塑料/GFRPP",
+                            "children": {}
+                        }
+                    }
+                },
+                "5": {
+                    "product_name": "增压泵",
+                    "product_name_en": "Boost Pump",
+                    "class_name": "CentrifugalPump",
+                    "kw_k": 0.8,
+                    "p2_k": 1.2,
+                    "children": {}
+                },
+                "6": {
+                    "product_name": "桶泵",
+                    "product_name_en": "barrel Pump",
+                    "kw_related": false,
+                    "kw": 0.5,
+                    "kw_k": 0.3,
+                    "p2_k": 2,
+                    "children": {}
+                }
+            }
+        },
+        "5": {
+            "product_name": "容器相关",
+            "product_name_en": "container related",
+            "dn_related": false,
+            "kw_related": false,
+            "pn_related": true,
+            "unit": "set",
+            "label": "容器",
+            "class_name": "Tank",
+            "children": {
+                "1": {
+                    "product_name": "水池",
+                    "product_name_en": "tank",
+                    "material": "混凝土",
+                    "children": {
+                        "1": {
+                            "product_name": "方形水池",
+                            "product_name_en": "square tank",
+                            "class_name": "TankSquare",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "圆形水池",
+                            "product_name_en": "round tank",
+                            "class_name": "TankRound",
+                            "children": {}
+                        }
+                    }
+                },
+                "2": {
+                    "product_name": "储罐",
+                    "product_name_en": "tank",
+                    "material": "碳钢防腐/PE/PP",
+                    "children": {
+                        "1": {
+                            "product_name": "方形储罐",
+                            "product_name_en": "square tank",
+                            "class_name": "TankSquare",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "圆形储罐",
+                            "product_name_en": "round tank",
+                            "class_name": "TankRound",
+                            "children": {}
+                        }
+                    }
+                },
+                "3": {
+                    "product_name": "计量箱",
+                    "product_name_en": "storage tank",
+                    "material": "PP/PE",
+                    "children": {
+                        "1": {
+                            "product_name": "方形计量箱",
+                            "product_name_en": "square tank",
+                            "class_name": "TankSquare",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "圆形计量箱",
+                            "product_name_en": "round tank",
+                            "class_name": "TankRound",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "6": {
+            "product_name": "膜相关",
+            "product_name_en": "membrane related",
+            "dn_related": false,
+            "kw_related": false,
+            "pn_related": true,
+            "label": "膜",
+            "children": {
+                "1": {
+                    "product_name": "反渗透膜",
+                    "product_name_en": "ro",
+                    "structure": "卷式",
+                    "children": {
+                        "1": {
+                            "product_name": "芳香聚酰胺反渗透膜",
+                            "product_name_en": "pa ro",
+                            "material": "PA",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "醋酸纤维反渗透膜",
+                            "product_name_en": "ca ro",
+                            "material": "CA",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "碟管式反渗透",
+                            "product_name_en": "dtro",
+                            "material": "PA",
+                            "structure": "碟管式",
+                            "children": {}
+                        }
+                    }
+                },
+                "2": {
+                    "product_name": "纳滤膜",
+                    "product_name_en": "nf",
+                    "structure": "卷式",
+                    "children": {
+                        "1": {
+                            "product_name": "芳香聚酰胺纳滤膜",
+                            "product_name_en": "PA NF",
+                            "material": "PA",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "聚瓷纳滤膜",
+                            "product_name_en": "polycera ro",
+                            "material": "polycera",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "碟管式纳滤膜",
+                            "product_name_en": "dtnf",
+                            "material": "PA",
+                            "structure": "碟管式",
+                            "children": {}
+                        }
+                    }
+                },
+                "3": {
+                    "product_name": "超滤膜",
+                    "product_name_en": "uf",
+                    "children": {
+                        "1": {
+                            "product_name": "中空纤维超滤膜",
+                            "product_name_en": "hollow fiber uf",
+                            "children": {
+                                "1": {
+                                    "product_name": "压力式超滤膜",
+                                    "product_name_en": "pressure type uf",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "浸没式超滤膜",
+                                    "product_name_en": "hollow fiber MBR",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "2": {
+                            "product_name": "卷式超滤膜",
+                            "product_name_en": "spiral uf",
+                            "class_name": "SpiralUF",
+                            "children": {}
+                        },
+                        "3": {
+                            "product_name": "管式超滤膜",
+                            "product_name_en": "tubular uf",
+                            "children": {
+                                "1": {
+                                    "product_name": "烧结管式超滤膜",
+                                    "product_name_en": "TMF",
+                                    "material": "PE/PVDF",
+                                    "children": {}
+                                },
+                                "2": {
+                                    "product_name": "陶瓷膜",
+                                    "product_name_en": "ceramic uf",
+                                    "material": "ceramic",
+                                    "children": {}
+                                }
+                            }
+                        },
+                        "4": {
+                            "product_name": "陶瓷膜",
+                            "product_name_en": "ceramic uf",
+                            "material": "al2o3",
+                            "remark": "如Nanostone,Pall等α氧化铝材质的用于和常规超滤竞争的产品",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "7": {
+            "product_name": "电动设备",
+            "product_name_en": "power equipment",
+            "power": "electric",
+            "dn_related": false,
+            "kw_related": true,
+            "pn_related": false,
+            "label": "其他电动设备",
+            "unit": "set",
+            "children": {
+                "1": {
+                    "product_name": "搅拌机",
+                    "product_name_en": "agitator",
+                    "class_name": "Agitator",
+                    "children": {
+                        "1": {
+                            "product_name": "桨叶式搅拌机",
+                            "product_name_en": "impeller agitator",
+                            "material": "碳钢衬胶轴浆",
+                            "children": {}
+                        }
+                    }
+                },
+                "2": {
+                    "product_name": "换热器",
+                    "product_name_en": "heat exchanger",
+                    "class_name": "HeatExchanger",
+                    "children": {}
+                },
+                "3": {
+                    "product_name": "空压机",
+                    "product_name_en": "air compressor",
+                    "class_name": "AirCompressor",
+                    "children": {}
+                }
+            }
+        },
+        "8": {
+            "product_name": "框架",
+            "product_name_en": "frame",
+            "dn_related": false,
+            "kw_related": false,
+            "pn_related": false,
+            "standard": "non",
+            "label": "框架",
+            "children": {
+                "1": {
+                    "product_name": "框架",
+                    "product_name_en": "shell frame",
+                    "material": "碳钢",
+                    "children": {}
+                },
+                "2": {
+                    "product_name": "走道板",
+                    "product_name_en": "Slide Walk",
+                    "material": "FRP",
+                    "children": {}
+                },
+                "3": {
+                    "product_name": "支撑架",
+                    "product_name_en": "Support Frame",
+                    "material": "SS304",
+                    "children": {}
+                },
+                "4": {
+                    "product_name": "面板",
+                    "product_name_en": "Panel Frame",
+                    "material": "SS304",
+                    "children": {}
+                },
+                "5": {
+                    "product_name": "底座",
+                    "product_name_en": "Foundation Bed",
+                    "material": "碳钢",
+                    "children": {}
+                }
+            }
+        },
+        "9": {
+            "product_name": "通用设备",
+            "product_name_en": "general equipment",
+            "label": "通用设备",
+            "children": {
+                "1": {
+                    "product_name": "过滤器",
+                    "product_name_en": "Cartridge Filter",
+                    "class_name": "CartridgeFilter",
+                    "children": {
+                        "1": {
+                            "product_name": "保安过滤器",
+                            "product_name_en": "Cartridge Filter",
+                            "material": "SS304",
+                            "class_name": "CartridgeFilter",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "袋式过滤器",
+                            "product_name_en": "Bag Filter",
+                            "material": "SS304",
+                            "class_name": "CartridgeFilter",
+                            "children": {}
+                        }
+                    }
+                },
+                "3": {
+                    "product_name": "电控柜",
+                    "product_name_en": "electric control cabinet",
+                    "unit": "set",
+                    "children": {}
+                },
+                "4": {
+                    "product_name": "管道混合器",
+                    "product_name_en": "pipeline mixer",
+                    "class_name": "PipelineMixer",
+                    "unit": "set",
+                    "children": {}
+                },
+                "5": {
+                    "product_name": "膜壳",
+                    "product_name_en": "ro vessel",
+                    "class_name": "RoVessel",
+                    "unit": "set",
+                    "remark": "标准反渗透膜壳",
+                    "material": "FRP或SS304",
+                    "children": {
+                        "1": {
+                            "product_name": "玻璃钢膜壳",
+                            "product_name_en": "FRP vessel",
+                            "unit": "set",
+                            "material": "FRP",
+                            "children": {}
+                        },
+                        "2": {
+                            "product_name": "不锈钢膜壳",
+                            "product_name_en": "vessel",
+                            "unit": "set",
+                            "material": "SS304",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

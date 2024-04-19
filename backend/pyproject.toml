@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "polycera_ccrm_backend"
+version = "0.1.0"
+description = ""
+authors = ["jack li"]
+license = "None"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<=3.10"
+fastapi = "0.78.0"
+uvicorn = "*"
+pyjwt = "2.4.0"
+passlib = "1.7.4"
+pymongo = "4.1.1"
+mongoengine = "0.24.1"
+python-dotenv = "*"
+bcrypt = "3.2.2"
+pydantic = {extras = ["email"],version = "1.9.1"}
+blinker = "1.4"
+python-multipart = "0.0.5"
+openpyxl-templates = "*"
+future = "*"
+pandas = "1.4.2"
+aiosmtplib = "1.1.6"
+docxtpl = "0.16.0"
+aiofiles = "0.8.0"
+pywin32 = "304"
+matplotlib = "*"
+anytree = "^2.8.0"
+scipy = "^1.7.0"
+sympy = "^1.8"
+xlrd = "^2.0.1"
+beautifulsoup4 = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+pylint = "*"
+faker = "*"
+jupyterlab = "*"
+pytest = "^6.2.4"
+requests = "^2.26.0"
+pyinstaller = "^4.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

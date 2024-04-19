@@ -1,0 +1,258 @@
+{
+    "id": "pipe_dict",
+    "name": "超滤系统管道结构",
+    "payload": {},
+    "children": [
+        {
+            "id": "1",
+            "name": "原水箱",
+            "payload": {},
+            "children": [
+                {
+                    "id": "1",
+                    "name": "原水箱排空管路",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                },
+                {
+                    "id": "2",
+                    "name": "原水箱出口管路(接原水泵)",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "系列",
+            "payload": {},
+            "children": [
+                {
+                    "id": "1",
+                    "name": "原水泵",
+                    "payload": {},
+                    "children": [
+                        {
+                            "id": "1",
+                            "name": "原水泵入口管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "2",
+                            "name": "原水泵出口管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "name": "膜组",
+                    "payload": {},
+                    "children": [
+                        {
+                            "id": "1",
+                            "name": "膜组进水管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "2",
+                            "name": "膜组循环泵前后管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "3",
+                            "name": "膜组浓水总管(循环+回流+浓排)",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "4",
+                            "name": "膜组循环管路(循环+回流)",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "5",
+                            "name": "膜组浓水排放管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "6",
+                            "name": "膜组产水管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "7",
+                            "name": "膜组浓水回流管路(至原水箱)",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "8",
+                            "name": "膜组循环回流管路",
+                            "is_pipe": true,
+                            "payload": {},
+                            "children": []
+                        },
+                        {
+                            "id": "9",
+                            "name": "膜组反洗相关",
+                            "payload": {},
+                            "children": [
+                                {
+                                    "id": "1",
+                                    "name": "膜组反洗入口管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": []
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "膜组反洗排放管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "10",
+                            "name": "膜组CIP相关",
+                            "payload": {},
+                            "children": [
+                                {
+                                    "id": "1",
+                                    "name": "膜组CIP入口管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": []
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "膜组CIP浓水回流管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": []
+                                },
+                                {
+                                    "id": "1",
+                                    "name": "膜组CIP产水回流管道",
+                                    "is_pipe": true,
+                                    "payload": {},
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "反洗",
+            "payload": {},
+            "children": [
+                {
+                    "id": "1",
+                    "name": "反洗泵入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                },
+                {
+                    "id": "2",
+                    "name": "反洗泵出口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                },
+                {
+                    "id": "3",
+                    "name": "CEB相关",
+                    "payload": {},
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "化学清洗相关",
+            "payload": {},
+            "children": [
+                {
+                    "id": "1",
+                    "name": "CIP泵入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                },
+                {
+                    "id": "2",
+                    "name": "CIP泵出口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                },
+                {
+                    "id": "3",
+                    "name": "CIP水箱排空管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "压缩空气",
+            "payload": {},
+            "children": [
+                {
+                    "id": "1",
+                    "name": "压缩空气入口管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "产水箱",
+            "payload": {},
+            "children": [
+                {
+                    "id": "1",
+                    "name": "产水箱排空管道",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                },
+                {
+                    "id": "1",
+                    "name": "产水箱出口管道(接反洗泵)",
+                    "is_pipe": true,
+                    "payload": {},
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
