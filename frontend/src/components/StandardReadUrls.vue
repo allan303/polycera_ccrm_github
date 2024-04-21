@@ -9,7 +9,7 @@
     </ol>
   </nav>
 </template>
-<script>
+<script scope>
 import { ref, defineComponent, watch, onMounted, inject } from "vue";
 
 import { getRelatedUrls1 } from "@/myjs";

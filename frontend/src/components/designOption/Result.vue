@@ -43,7 +43,7 @@
     </ol>
   </div>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent } from "vue";
 import { useStore } from "@/main";
 export default defineComponent({

@@ -9,7 +9,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 //在ins页面下的子list清单中，新增关联的子项
 import MyButton from "./ui/MyButton.vue";
 import { useRouter } from "vue-router";

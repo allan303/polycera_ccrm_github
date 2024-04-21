@@ -35,7 +35,7 @@
     v-else
   ></MyButton>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent, onMounted, reactive, toRefs } from "vue";
 import MyButton from "./MyButton.vue";
 import { genColClass, genUid } from "@/myjs";

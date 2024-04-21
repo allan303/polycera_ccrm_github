@@ -27,7 +27,7 @@
   ></MyButton>
 </template>
 
-<script>
+<script scope>
 import { computed, provide, reactive, toRefs, onMounted } from "vue";
 import { useAxios, useStore } from "@/main";
 import FormSelect from "@/components/ui/FormSelect";

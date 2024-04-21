@@ -38,7 +38,7 @@
     </form>
   </div>
 </template>
-<script>
+<script scope>
 import { validateForm, genColClass } from "@/myjs";
 import { inject, reactive, toRefs } from "vue";
 import { useStore, useAxios } from "@/main";

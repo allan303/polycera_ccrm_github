@@ -21,7 +21,7 @@
     </option>
   </datalist>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent, reactive, ref, toRefs, watch } from "vue";
 import { getOptionText, getOptionValue, genUid } from "@/myjs";
 

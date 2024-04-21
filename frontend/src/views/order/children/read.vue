@@ -2,7 +2,7 @@
   <CreateComponent urlName="read"></CreateComponent>
 </template>
 
-<script>
+<script scope>
 import CreateComponent from "../components/CreateComponent";
 export default {
   components: {

@@ -17,7 +17,7 @@
     <button class="btn btn-danger" @click="deleteSelf">删除</button>
   </td>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent } from "vue";
 import { useStore } from "@/main";
 import { process_ceb_names, process_cip_names } from "./js";

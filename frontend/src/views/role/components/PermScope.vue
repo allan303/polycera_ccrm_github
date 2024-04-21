@@ -24,7 +24,7 @@
     </button>
   </div>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent, inject } from "vue";
 import { useStore } from "@/main";
 export default defineComponent({

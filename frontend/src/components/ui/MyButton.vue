@@ -19,7 +19,7 @@
     {{ label }}
   </button>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent } from "vue";
 import { genBtnClass } from "@/myjs";
 

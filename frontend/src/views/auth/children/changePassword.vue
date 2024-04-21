@@ -33,7 +33,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 import { inject, reactive, toRefs } from "vue";
 import { useStore, useAxios } from "@/main";
 import { useRouter } from "vue-router";

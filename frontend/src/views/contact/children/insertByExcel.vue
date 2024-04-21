@@ -77,7 +77,7 @@
   </form>
 </template>
 
-<script>
+<script scope>
 // import FormInput from "@/components/ui/FormInput";
 import { useAxios } from "@/main";
 import { ref } from "vue";

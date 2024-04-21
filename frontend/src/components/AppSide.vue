@@ -23,7 +23,7 @@
     </ul>
   </div>
 </template>
-<script>
+<script scope>
 import { useStore } from "@/main";
 import { can } from "@/myjs";
 import { defineComponent } from "vue";

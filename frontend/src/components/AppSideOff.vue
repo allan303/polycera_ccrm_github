@@ -27,7 +27,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { defineComponent, watch, ref, computed, inject } from "vue";
 import { useRoute } from "vue-router";
 import AppSide from "./AppSide.vue";

@@ -36,7 +36,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent, reactive, ref, toRefs, watch } from "vue";
 import { genColClass, genUid, getOptionText, getOptionValue } from "@/myjs";
 

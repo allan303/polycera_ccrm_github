@@ -34,7 +34,7 @@
     <FormCheckbox v-model="formData.show_ceb" label="显示CEB"></FormCheckbox>
   </fieldset>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent } from "vue";
 import { useStore } from "@/main";
 import FormCheckbox from "@/components/ui/FormCheckbox";

@@ -12,7 +12,7 @@
     </ul>
   </div>
 </template>
-<script>
+<script scope>
 import { watch, ref, defineComponent } from "vue";
 import OneTab from "./OneTab";
 export default defineComponent({

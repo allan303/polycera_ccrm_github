@@ -4,7 +4,7 @@
     <p :class="rawClass" :id="id" v-html="modelValue"></p>
   </div>
 </template>
-<script>
+<script scope>
 import { defineComponent, reactive, toRefs } from "vue";
 import { genColClass, genUid } from "@/myjs";
 

@@ -30,7 +30,7 @@ export const createAxios = (store, router) => {
       const token_type = store.state.token_type || 'Bearer'
       const access_token = store.state.access_token || ''
       config.headers.Authorization = `${token_type} ${access_token}`
-      console.log("AXIOS::", "METHOD:", config.method, "URL:", config.url,)
+      // console.log("AXIOS::", "METHOD:", config.method, "URL:", config.url,)
       return config;
     },
     function (error) {

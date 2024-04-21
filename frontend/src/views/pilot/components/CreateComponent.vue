@@ -98,7 +98,7 @@
   </StandardCreateComponent>
 </template>
 
-<script>
+<script scope>
 import { provide, computed, defineComponent, inject } from "vue";
 import { useStore } from "@/main";
 import StandardCreateComponent from "@/components/StandardCreateComponent";

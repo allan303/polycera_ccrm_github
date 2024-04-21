@@ -151,7 +151,7 @@
     </div>
   </header>
 </template>
-<script>
+<script scope>
 import { useRoute, useRouter } from "vue-router";
 import { useStore, useAxios } from "@/main";
 import { toRefs, reactive, defineComponent, inject } from "vue";

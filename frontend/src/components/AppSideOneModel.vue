@@ -26,7 +26,7 @@
     </ul>
   </div>
 </template>
-<script>
+<script scope>
 import { useStore } from "@/main";
 import { computed, defineComponent } from "vue";
 import { useRouter } from "vue-router";

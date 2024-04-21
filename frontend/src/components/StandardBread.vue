@@ -24,7 +24,7 @@
   </nav>
 </template>
 
-<script>
+<script scope>
 import { defineComponent, inject, watch, ref } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useStore } from "@/main";
@@ -86,7 +86,7 @@ export default defineComponent({
     watch(
       () => locale.value,
       () => {
-        console.log(locale.value);
+        // console.log(locale.value);
         itemsNew.value = createItems();
       }
     );

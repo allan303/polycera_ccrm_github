@@ -11,7 +11,7 @@
   </StandardIndex>
 </template>
 
-<script>
+<script scope>
 import StandardIndex from "@/components/StandardIndex";
 import MyButton from "@/components/ui/MyButton";
 import { useAxios } from "@/main";

@@ -124,7 +124,7 @@
     </table>
   </div>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent, computed } from "vue";
 import { useStore } from "@/main";
 import FormInput from "@/components/ui/FormInput";

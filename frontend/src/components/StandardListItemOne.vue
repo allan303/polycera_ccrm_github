@@ -38,7 +38,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { defineComponent, inject } from "vue";
 
 import { useRouter } from "vue-router";

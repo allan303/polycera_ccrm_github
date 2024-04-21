@@ -72,7 +72,7 @@
     </fieldset>
   </div>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent, provide } from "vue";
 import { useStore } from "@/main";
 import FormInput from "@/components/ui/FormInput";

@@ -56,7 +56,7 @@
   </StandardListComponent>
 </template>
 
-<script>
+<script scope>
 import { computed, ref } from "vue";
 import MyCard from "@/components/ui/MyCard";
 import StandardListComponent from "@/components/StandardListComponent";

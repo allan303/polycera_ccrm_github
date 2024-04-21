@@ -13,7 +13,7 @@
   </StandardListComponent>
 </template>
 
-<script>
+<script scope>
 import StandardListComponent from "@/components/StandardListComponent";
 import ListItemOne from "./ListItemOne";
 import { computed, ref } from "vue";

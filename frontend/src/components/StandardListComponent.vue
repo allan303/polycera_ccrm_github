@@ -256,7 +256,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 import {
   reactive,
   watch,
@@ -336,7 +336,7 @@ export default defineComponent({
     });
     const fetchListItems = () => {
       //fetch时 仅仅需要 到同一个api进行list_query,只要传入scope即可
-      console.log(listQueryData.value);
+      // console.log(listQueryData.value);
       axios({
         method: "post",
         url: `/${modelName.value}/list-paginate`,

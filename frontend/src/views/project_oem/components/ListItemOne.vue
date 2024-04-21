@@ -31,7 +31,7 @@
     </dl>
   </StandardListItemOne>
 </template>
-<script>
+<script scope>
 import { computed } from "vue";
 import StandardListItemOne from "@/components/StandardListItemOne";
 import { readUrlDict } from "./js";

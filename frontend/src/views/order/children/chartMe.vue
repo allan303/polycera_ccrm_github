@@ -1,7 +1,7 @@
 <template>
   <chartComponent listScope="me"></chartComponent>
 </template>
-<script>
+<script scope>
 import chartComponent from "../components/chartComponent";
 
 export default {

@@ -9,7 +9,7 @@
     <p v-html="formData.body"></p>
   </StandardListItemOne>
 </template>
-<script>
+<script scope>
 import StandardListItemOne from "@/components/StandardListItemOne";
 import { readUrlDict } from "./js";
 import { computed } from "@vue/runtime-core";

@@ -27,7 +27,7 @@
     </ul>
   </nav>
 </template>
-<script>
+<script scope>
 import { ref, watch, computed, defineComponent, inject } from "vue";
 import MySelect from "@/components/ui/MySelect";
 export default defineComponent({

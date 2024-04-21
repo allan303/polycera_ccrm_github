@@ -12,7 +12,7 @@
     :class="rawClass"
   ></Multiselect>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent, ref, watch } from "vue";
 import { getOptionText, getOptionValue } from "@/myjs";
 import Multiselect from "@vueform/multiselect";

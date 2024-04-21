@@ -43,7 +43,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { defineComponent, ref } from "vue";
 import { useStore } from "@/main";
 import FormAutoSelect from "./ui/FormAutoSelect.vue";

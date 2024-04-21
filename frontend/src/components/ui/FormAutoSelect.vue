@@ -1,8 +1,9 @@
 <template>
   <div :class="finalInputClass">
     <label :for="id" class="form-label mt-3" v-if="label">{{ label }} </label>
-    <div class="input-group">
+    <div class="input-group ">
       <slot></slot>
+      <div>
       <Multiselect
         :id="id"
         v-model="valueLocal"
@@ -15,10 +16,11 @@
         :multipleLabel="getLabels"
         :disabled="disabled"
       ></Multiselect>
+      </div>
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent, reactive, ref, toRefs, watch } from "vue";
 import { genColClass, genUid, getOptionText, getOptionValue } from "@/myjs";
 import Multiselect from "@vueform/multiselect";

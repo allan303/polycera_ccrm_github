@@ -34,7 +34,7 @@
     <FormInput label="膜寿命" v-model="formData.lifetime"></FormInput>
   </fieldset>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent } from "vue";
 import { useStore } from "@/main";
 import FormInput from "@/components/ui/FormInput";

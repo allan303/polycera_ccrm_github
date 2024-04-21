@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 import { computed, inject, reactive, toRefs } from "vue";
 import { useStore } from "@/main";
 import FormInput from "@/components/ui/FormInput";

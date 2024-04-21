@@ -10,7 +10,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { useStore } from "@/main";
 
 import { reactive, toRefs } from "@vue/reactivity";

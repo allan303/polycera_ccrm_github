@@ -65,7 +65,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { watch, computed, defineComponent, inject, ref } from "vue";
 import { useStore } from "@/main";
 import { confirmDo } from "@/myjs";

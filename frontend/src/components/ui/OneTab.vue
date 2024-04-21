@@ -3,7 +3,7 @@
     {{ $t(tabName) }}
   </a>
 </template>
-<script>
+<script scope>
 import { computed, defineComponent } from "vue";
 export default defineComponent({
   props: {

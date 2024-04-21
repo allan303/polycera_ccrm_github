@@ -9,7 +9,7 @@
     :readonly="readonly"
   />
 </template>
-<script>
+<script scope>
 import { defineComponent, ref, watch } from "vue";
 
 export default defineComponent({

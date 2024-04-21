@@ -25,7 +25,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { computed, ref, defineComponent } from "vue";
 export default defineComponent({
   props: {

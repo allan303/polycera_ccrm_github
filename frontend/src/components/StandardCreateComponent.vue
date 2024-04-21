@@ -56,7 +56,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 import {
   onMounted,
   computed,

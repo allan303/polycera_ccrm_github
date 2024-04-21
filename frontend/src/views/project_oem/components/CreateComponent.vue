@@ -50,7 +50,7 @@
   </StandardCreateComponent>
 </template>
 
-<script>
+<script scope>
 import { provide, computed, watch, inject } from "vue";
 import { useStore } from "@/main";
 import StandardCreateComponent from "@/components/StandardCreateComponent";

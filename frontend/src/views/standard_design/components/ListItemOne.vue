@@ -14,7 +14,7 @@
     </dl>
   </StandardListItemOne>
 </template>
-<script>
+<script scope>
 import StandardListItemOne from "@/components/StandardListItemOne";
 import { readUrlDict } from "./js";
 export default {

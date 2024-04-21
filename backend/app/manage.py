@@ -53,58 +53,14 @@ def update_version():
     '''
     # ConfigOrm.init_model()
     import pymongo
-    from pymongo import MongoClient
     myclient = pymongo.MongoClient("mongodb://127.0.0.1:27017")
     db = myclient[MONGO_DB]
     print(db)
     # PolyceraModuleOrm 也受到 size 影响
     init_polycera_modules()
     logger_and_print('Design Module: schame change')
-    # db.polycera_module_orm.update_many(
-    #     filter={}, update={'$unset': {'size': 1}})
-    # db.polycera_serie_orm.update_many(
-    #     filter={}, update={'$unset': {'size': 1}})
-    # logger_and_print('删除size 字段')
-    # for x in PostOrm.objects.all():
-    #     if str(x.body).startswith('[') and ']' in x.body:
-    #         x.is_system = True
-    #         x.save()
-    # logger_and_print("设置系统Post is_system")
-    # 导入 电厂化学会 联系人表
-    # cu = UserOrm.objects(name='刘君').first()
-    # insert_contact_from_excel(
-    #     cu=cu,
-    #     filename='2021年电厂化学设计技术交流会通讯表.xls',
-    #     remark="2021年电厂化学设计技术交流会通讯表")
-    # print('导入 电厂化学会议联系人表 SUCCESS')
-    # ORDER ORM 增加free(bool)
-    # db.order_orm.update_many(
-    #     {}, {'$set': {'free': False}})
-    # print('Order 增加free 成功，全部设置为False')
-    # product-order 加入1812等产品
-    # ProductOrm.insert_membrane_product()
-    # logger.info('增加所有1812产品 success')
-    # 插入所有workgroup_sid
-    # models_list = get_models_list()
-    # CommentOrm.objects.delete()
-    # logger_and_print('清空comment')
-    # for orm_class in models_list:
-    #     for x in orm_class.objects.all():
-    #         try:
-    #             x.save()
-    #         except Exception as e:
-    #             print(e)
-    # logger_and_print("所有instance 执行save(),为了更新workgroup_sid")
-    # su_user workgroup =None
-    # su_user = UserOrm.objects(username='su_user').first()
-    # su_user.workgroup_sid = ''
-    # su_user.workgroup_name = ''
-    # su_user.save()
-    # logger_and_print("su_user workgroup =None")
-    # logger_and_print(f"Update Version")
-    # for x in DesignModuleOrm.objects.all():
-    #     x.save()
-    # logger_and_print(f"所有设计产品brand 都变成首字母大写")
+    # su用户 密码重置 admin123
+
 
 
 def init_polycera_modules(pathdir: str = None, excel: str = "polyceraproducts_cn.xlsx"):

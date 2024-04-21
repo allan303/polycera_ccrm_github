@@ -2,7 +2,7 @@
   <MyprofileComponent :isEdit="true"></MyprofileComponent>
 </template>
 
-<script>
+<script scope>
 import MyprofileComponent from "../components/MyprofileComponent";
 export default {
   components: {

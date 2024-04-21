@@ -1,7 +1,7 @@
 <template>
   <a class="dropdown-item" @click="switchWorkgroup">{{ workgroup.name }}</a>
 </template>
-<script>
+<script scope>
 import { defineComponent } from "vue";
 import { useStore } from "@/main";
 import { useRouter } from "vue-router";

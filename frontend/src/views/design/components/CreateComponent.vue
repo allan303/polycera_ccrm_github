@@ -92,7 +92,7 @@
   </StandardCreateComponent>
 </template>
 
-<script>
+<script scope>
 import { computed, provide, inject, onMounted } from "vue";
 import { useStore, useAxios } from "@/main";
 import StandardCreateComponent from "@/components/StandardCreateComponent";

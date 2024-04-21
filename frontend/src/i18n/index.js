@@ -1,4 +1,4 @@
-import { createI18n } from 'vue-i18n/index'
+import { createI18n } from 'vue-i18n'
 import zh from './lang/zh';
 import en from './lang/en';
 
@@ -8,9 +8,14 @@ export const i18n = createI18n({
     locale: 'zh', // set locale
     fallbackLocale: 'en', // set fallback locale
     globalInjection: true,
+    allowComposition:true,
     messages: {
         zh,
         en
     }, // set locale messages
+    silentTranslationWarn:true,
+    // missingWarn:false,
+    // silentFallbackWarn:true,
+    // fallbackWarn:false
 })
 

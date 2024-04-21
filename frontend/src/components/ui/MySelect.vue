@@ -17,7 +17,7 @@
     </option>
   </select>
 </template>
-<script>
+<script scope>
 import { defineComponent, reactive, ref, toRefs, watch } from "vue";
 import { getOptionText, getOptionValue } from "@/myjs";
 

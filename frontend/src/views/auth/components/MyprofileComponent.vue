@@ -112,7 +112,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 import { reactive, onMounted, toRefs, computed, inject } from "vue";
 import { useRouter } from "vue-router";
 import { useAxios, useStore } from "@/main";

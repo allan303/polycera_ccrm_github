@@ -56,7 +56,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { defineComponent, inject, computed } from "vue";
 import PermScope from "./PermScope";
 import { useStore } from "@/main";

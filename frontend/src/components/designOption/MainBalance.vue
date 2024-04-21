@@ -72,7 +72,7 @@
     ></FormSelect>
   </fieldset>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent, computed, watch } from "vue";
 import { useStore } from "@/main";
 import FormInput from "@/components/ui/FormInput";

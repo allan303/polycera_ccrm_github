@@ -14,7 +14,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { genColClass } from "@/myjs";
 
 export default {

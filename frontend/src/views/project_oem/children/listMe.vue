@@ -2,7 +2,7 @@
   <ListComponent listScope="me"></ListComponent>
 </template>
 
-<script>
+<script scope>
 import ListComponent from "../components/ListComponent";
 export default {
   components: {

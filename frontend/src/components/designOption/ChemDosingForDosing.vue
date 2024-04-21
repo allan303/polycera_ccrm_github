@@ -26,7 +26,7 @@
     <!-- <MyButton @click="deleteSelf" label="删除" btnClass="btn-danger"></MyButton> -->
   </td>
 </template>
-<script>
+<script scope>
 import { inject, defineComponent } from "vue";
 import { useStore } from "@/main";
 import MyInput from "@/components/ui/MyInput";

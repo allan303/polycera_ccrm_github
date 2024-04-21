@@ -31,7 +31,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 import { computed, defineComponent, inject, provide, ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { useStore } from "@/main";

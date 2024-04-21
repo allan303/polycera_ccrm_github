@@ -22,7 +22,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import {
   computed,
   onMounted,

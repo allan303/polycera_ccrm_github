@@ -2,7 +2,7 @@
   <ListComponent listScope="deleted"></ListComponent>
 </template>
 
-<script>
+<script scope>
 import ListComponent from "../components/ListComponent";
 export default {
   components: {

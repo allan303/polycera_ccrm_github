@@ -2,7 +2,7 @@
   <StandardIndex :useSearch="true"></StandardIndex>
 </template>
 
-<script>
+<script scope>
 import StandardIndex from "@/components/StandardIndex";
 
 export default {

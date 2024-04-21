@@ -223,7 +223,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { useRoute, useRouter } from "vue-router";
 import { can, validateForm, downloadReport, confirmDo } from "@/myjs";
 import { computed, defineComponent, inject, reactive, toRefs } from "vue";
@@ -525,7 +525,7 @@ export default defineComponent({
           method: "post",
           url: "/auth/default-user-password",
         }).then((res) => {
-          console.log(res.data);
+          // console.log(res.data);
           const pwd = res.data.msg;
           alert($t("actions.resetPwdSuccess", { pwd: pwd }));
         });

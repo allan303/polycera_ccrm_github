@@ -12,7 +12,7 @@
     </div>
   </div>
 </template>
-<script>
+<script scope>
 import { defineComponent, reactive, ref, toRefs, watch } from "vue";
 import { genColClass, genUid } from "@/myjs";
 import { quillEditor } from "vue3-quill";
