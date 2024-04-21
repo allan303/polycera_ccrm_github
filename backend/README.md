@@ -12,7 +12,7 @@
 1. poetry install
 
 ### 启动
-1. 第一次布置先运行 poetry run pythoon main.py
+1. 第一次布置先运行 poetry run python deploy_new.py
 2. poetry run python main.py 
 3. .ENV 文件中配置端口
 4. 修改后可以通过 update.py 进行更新，会保存update log 到update_version.log
